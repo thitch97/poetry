@@ -1,0 +1,19 @@
+[[requires]]
+name = "poetry"
+
+[requires.metadata]
+launch = true
+
+[[requires]]
+name = "pip"
+
+[requires.metadata]
+build = true
+launch = true
+
+[[requires]]
+name = "cpython"
+
+[requires.metadata]
+build = true
+launch = true
