@@ -8,7 +8,7 @@ import (
 )
 
 func TestUnitPoetry(t *testing.T) {
-	suite := spec.New("pipenv", spec.Report(report.Terminal{}))
+	suite := spec.New("poetry", spec.Report(report.Terminal{}))
 	suite("Detect", testDetect)
 	suite("Build", testBuild)
 	suite("PyProjParser", testPyProjParser)
